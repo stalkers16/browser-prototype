@@ -13,8 +13,8 @@ This directory emulates a cash memory.
 To make a first connection with any site, user must
 input domain name and extension (e.g. sitename.com), but all
 necessary prefixes, like "https://" will be added automatically.
-If connection is sucessful, the html-code of page will be displayed
-and saved in the "cashe memory", so next time you can call for page
+If connection is sucessful, the from html-code text of page will be extracted, 
+displayed, and saved in the "cashe memory", so next time you can call for page
 providing just this name. So, input, e.g.: sitename will open a page
 sitename.com.
 NB! If you are not very familiar with use of command line, just replace
